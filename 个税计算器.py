@@ -8,7 +8,7 @@ income = float(input("请输入税前年总收入:"))
 # 判断年收入不能为负数
 if income < 0:
     print("年收入不能小于0!")
-    input("\n...请按回车键退出...")  # 控制台防税闪退
+    input("\n...请按回车键退出...")  # 控制台防闪退
     exit()
 baby_num = int(input('请问您家中有几个3岁以下的婴幼儿？'))
 oldmen_num = int(input('请问您家中有几位60岁以上的老人？'))
@@ -40,7 +40,7 @@ else:
         tax = tax_income * 0.45 - 181920
 # 计算税后收入
 real_income = income - special_deduction - tax
-# 答应结果 保留两位小数
+# 打印结果 并保留两位小数
 print("需缴纳个税:", round(tax, 2), "元")
 print("专项扣除:", round(special_deduction, 2), "元")
 print("抚养幼儿扣除:", round(baby_deduction, 2), "元")
