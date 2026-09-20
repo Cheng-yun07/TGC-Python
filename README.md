@@ -17,7 +17,7 @@
 </a>
 &nbsp;&nbsp;&nbsp;
 <a href="#">
-  <img src="https://img.shields.io/badge/Made%20with-C语言-black" alt="Made with Python">
+  <img src="https://img.shields.io/badge/Made%20with-Python-black" alt="Made with Python">
 </a>
 
 <br><br>
